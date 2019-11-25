@@ -1,0 +1,13 @@
+{% extends "layout/basic.html" %}
+
+{% block title %}Пофиль пользователя{% endblock %}
+
+{% block content %}
+<h2>Пофиль пользователя {{ user.email }}</h2>
+{% if user.first_name and user.last_name %}
+<p>Здравствуйте, {{ user.first_name }} {{ user.last_name }}!</p>
+{% else %}
+<p>Здравствуйте!</p>
+{% endif %}
+<h3>Ваши новости</h3>
+{% endblock %}

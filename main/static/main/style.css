@@ -1,0 +1,7 @@
+header h1 {
+    background: url("news.jpg") left / auto 100% no-repeat, url("news.jpg") right / auto 100% no-repeat;
+}
+
+.root {
+    font-size: larger;
+}
